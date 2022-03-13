@@ -1,0 +1,237 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: rgba(11, 11, 34, 0.9);
+    backdrop-filter: blur(175px);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+/*HEADER*/
+#header {
+    padding-top: 20px;
+}
+
+.a-item {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header-btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 0 25px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    border: 0;
+
+    transition: .1s linear;
+}
+.header-btn:hover{
+    color: #000000;
+    background: #ffff00;
+    box-shadow: 0 15px 20px 10px rgba(255, 242, 0, 0.1);
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+/*HEADER*/
+.nav-item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 30px;
+    border-bottom: 1px solid transparent;
+transition: color .2s linear;
+}
+.nav-item:hover{
+    color: yellow;
+
+}
+.nav-item:hover{
+    color: aquamarine;
+    border-bottom: 1px solid#ffff00;
+}
+.nav-item::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: yellow;
+    bottom: -5px;
+
+}
+.hero-item {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #16FCD2;
+    margin-bottom: 20px;
+    margin-top: 60px;
+
+}
+
+.hero-item1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+
+.hero-item2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 20px;
+
+}
+
+.hero-btn {
+    background: #6016FC;
+    border-radius: 3px;
+    border: 0;
+    padding: 10px 40px;
+    margin-right: 20px;
+    color: #FFFFFF;
+    text-align: left;
+    transition: .2s linear;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    animation: pulse 1s;
+    box-shadow: 0 0 0 2px;
+}
+
+.hero-btn2 {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    border: 0;
+    color: #FFFFFF;
+    padding: 10px 40px;
+    margin-bottom: 70px;
+transition: .2s linear;
+}
+.hero-btn2:hover{
+    color: black;
+    background: aquamarine;
+    box-shadow: 0 15px 20px 10px rgba(255, 242, 0, 0.1);
+}
+.block {
+
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 40px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+    transition: .2s linear;
+}
+.block:hover{
+    margin-top: 0;
+    transform:translateY(-20px) ;
+}
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.sub-title {
+    margin-top: 20px;
+}
+.narrow {
+    background: rgba(255, 255, 255, 0.1);
+
+}
+.narrow1 {
+    background: rgba(255, 255, 255, 0.1);
+margin-bottom: 120px;
+}
+
+.image {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 150px;
+}
+.image span:last-child{
+    background: indigo;
+}
+
+.subject {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 60px;
+
+}
+.text1{
+    text-align: left;
+}
+.input{
+     width: 150px;
+     height: 10px;
+    border:none;
+     outline: none;
+    padding: 10px;
+ }
+ .input:focus{
+     background: #efefef;
+     color: blue;
+ }
+ .input::placeholder{
+     color: mediumpurple;
+ }
+ /*BTN*/
+
+
